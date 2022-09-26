@@ -1,0 +1,26 @@
+version: 2
+
+models:
+    - name: staging_DS_jobs
+      description: "A dbt model that has all transformations and cleaning process done on the raw dataset (Data science job posts on Glassdoor website)"
+      columns:
+          - name: Job_title
+            description: "job title for each job"
+            tests:
+                - not_null
+
+          - name: Job_Description
+            description: "job title for each job, the Primary key for the table"
+            tests:
+                - unique
+                - not_null
+
+          - name: salary_range
+            description: "salary range for each job (min-max)"
+
+          - name: Company_Name
+            description: "Comapny name that posted this job opportunity"
+
+          - name: Job_post_rating
+            description: "Rating for each job on glassdoor website (0-5) 5 is best rating"
+

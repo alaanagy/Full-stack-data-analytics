@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: jobs
+    tables:
+      - name: raw_ds_unclean_jobs
+      - name: raw_ds_clean_jobs
