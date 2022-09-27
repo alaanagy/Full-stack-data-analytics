@@ -50,6 +50,12 @@ This data set includes information data science job posts on glassdoor website (
 - dbt cloud to perform transformations and calculations
 - Google Data Studio for Analysis and Visualization
 
+The below image is screenshot from dbt cloud contains necessary files i created for the project on dbt
+
+
+![2](https://user-images.githubusercontent.com/49722916/192397556-1aae6c77-129c-446e-82d7-9e1189a0cece.PNG)
+
+
 ## Files
 
 - Google Colab [Uploading data into BigQuery](https://colab.research.google.com/drive/1qjFpXa7QWliEyJYVk_EDORcv86Nf0YoV?usp=sharing)
@@ -57,8 +63,7 @@ This data set includes information data science job posts on glassdoor website (
 - Sources.yml            contains dataset and tables names which we use in our project
 - schema.yml             contains your model and description about it and all the columns name and their description and tests
 
+I provide below a screenshot for the dashboard, [for a total view and filteration process](https://datastudio.google.com/reporting/e22983d1-4e79-467b-817c-f2a160bfd4b8)
 
-The below image is screenshot from dbt cloud contains necessary files i created for the project on dbt
+![1](https://user-images.githubusercontent.com/49722916/192584807-54e442ac-5026-4e86-9ff1-0658abfecdd7.PNG)
 
-
-![2](https://user-images.githubusercontent.com/49722916/192397556-1aae6c77-129c-446e-82d7-9e1189a0cece.PNG)
